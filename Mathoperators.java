@@ -1,6 +1,10 @@
 public class Mathoperators {
     public static void main(String[] args) {
 
+
+        int a = 1;
+        a = a++;
+
         int m =5, n = 5;
         double radio = (int)(Math.random()*10);
         double result = Math.pow(m, n);
@@ -10,6 +14,9 @@ public class Mathoperators {
         System.out.println(square_result);
         System.out.println(area);
         System.out.println(radio);
+
+        System.out.println("----------------------------------------------------");
+        System.out.println(a);
 
     }
 }
