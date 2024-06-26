@@ -1,6 +1,6 @@
 public class Arrayejercicio2 {
     public static void main(String[] args) {
-            String[] names = {"jesus", "vergara", "hola", "yo"};
+            String[] names = {"jesus", "vergara", "hola", "yo","vergara"};
             String data = long_array(names);
             System.out.println(data);
     }
